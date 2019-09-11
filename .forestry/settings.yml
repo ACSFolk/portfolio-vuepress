@@ -4,6 +4,11 @@ auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: asdasdasd
+  label: asdadsadas
+  create: all
+  match: "**/*"
 - type: document
   path: portfolio/index.md
   label: Homepage
